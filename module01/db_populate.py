@@ -3,7 +3,7 @@ import sqlite3
 db_file = sqlite3.connect("student.db")
 cur = db_file.cursor()
 
-
+#insert data into our 
 cur.execute("""
 INSERT INTO student_info(fname, lname, email, phone) VALUES
     ('Ange', 'Kouadio', 'angek@gmail.com', '0749715895'),
